@@ -285,11 +285,16 @@ body::-webkit-scrollbar-thumb
 	background-size: contain;
 	position: absolute;
 
+
 }
 
+.features
+{
+	box-shadow: 1px 1px 7px 3px rgba(0,0,0,0.5), 1px 1px 7px rgba(255,255,255,0.6);
+}
 .features:hover
 {
-	box-shadow: 1px 1px 7px 3px grey;
+	box-shadow: inset 2px 2px 7px 3px rgba(0,0,0,0.7), inset 1px 1px 7px 1px rgba(255,255,255,0.6);
 }
 .features_section
 {
